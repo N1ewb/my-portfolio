@@ -1,0 +1,48 @@
+.contact {
+    background-image: url('./fixed-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.contact-container{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap:30px;
+}
+
+.contact-head h1{
+    color:white;
+    font-size: 45px;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+.contact-body {
+    display: flex;
+    justify-content: center;
+}
+.contact-body p{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif; 
+    width: 600px;
+    
+}
+.contact-foot a{
+    color:white;
+    text-decoration: none;
+    padding:13px 30px 13px 30px;
+    background-color: #f02846;
+    transition: 300ms ease-in-out;
+}
+
+.contact-foot a:hover{
+    color:#f02846;
+    text-decoration: none;
+    padding:13px 30px 13px 30px;
+    background-color: white;
+}
+

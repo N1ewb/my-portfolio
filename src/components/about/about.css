@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
+
+
+.about-Title p{
+    font-family: 'Source Sans Pro', sans-serif;                                       
+    font-weight: 200;
+    font-size: 13px;
+    color:#DCFFBFB3;
+}
+
+.about {
+    background-image: radial-gradient(circle at center bottom,#FFFFFF,#4B4F58);
+    padding:100px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.about-content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1 {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.my-description {
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+.my-description-head h1 {
+    margin: 0;
+    font-size: 36px;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    margin-bottom:50px;
+    width:400px;
+}
+
+.my-description-body p {
+    color: white;
+    height:230px;
+    width:400px;
+    text-align: justify;
+}
+
+.my-picture img {
+    width: 450px;
+    height: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-spacer {
+    width:150px;
+}
+
+.about-hire-me-button a{
+    text-decoration: none;
+    color:white;
+    border: 1px solid white;
+    padding:13px 40px 13px 40px;
+    border-radius: 5px;
+}
+.about-hire-me-button a:hover{
+
+    color:black;
+    border: 1px solid black;
+
+}
